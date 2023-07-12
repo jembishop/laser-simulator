@@ -1,5 +1,5 @@
 [package]
-name = "laser"
+name = "laser-simulator"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,10 +9,10 @@ edition = "2021"
 eframe = "0.22.0"
 egui = "0.22.0"
 env_logger = "0.10.0"
+getrandom = { version = "0.2.10", features = ["js"] }
 glam = "0.24.1"
-# nannou = "0.18.1"
-# nannou_egui = "0.5.0"
 ndarray = "0.15.6"
 num_enum = "0.6.1"
 rand = "0.8.5"
 rand_distr = "0.4.3"
+wasm-bindgen-futures = "0.4.37"

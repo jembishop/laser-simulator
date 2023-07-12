@@ -977,13 +977,15 @@ dependencies = [
 
 [[package]]
 name = "getrandom"
-version = "0.2.9"
+version = "0.2.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c85e1d9ab2eadba7e5040d4e09cbd6d072b76a557ad64e797c2cb9d4da21d7e4"
+checksum = "be4136b2a15dd319360be1c07d9933517ccf0be8f16bf62a3bee4f0d618df427"
 dependencies = [
  "cfg-if",
+ "js-sys",
  "libc",
  "wasi",
+ "wasm-bindgen",
 ]
 
 [[package]]
@@ -1227,17 +1229,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2db585e1d738fc771bf08a151420d3ed193d9d895a36df7f6f8a9456b911ddc"
 
 [[package]]
-name = "laser"
+name = "laser-simulator"
 version = "0.1.0"
 dependencies = [
  "eframe",
  "egui",
  "env_logger",
+ "getrandom",
  "glam",
  "ndarray",
  "num_enum 0.6.1",
  "rand",
  "rand_distr",
+ "wasm-bindgen-futures",
 ]
 
 [[package]]
