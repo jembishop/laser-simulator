@@ -1391,7 +1391,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('laser-simulator-c28eb8a212a9e371_bg.wasm', import.meta.url);
+        input = new URL('laser-simulator-446c3816ce720645_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
