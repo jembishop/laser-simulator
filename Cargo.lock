@@ -1237,6 +1237,7 @@ dependencies = [
  "env_logger",
  "getrandom",
  "glam",
+ "log",
  "ndarray",
  "num_enum 0.6.1",
  "rand",
