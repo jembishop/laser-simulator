@@ -12,7 +12,6 @@ use rand::{distributions::Uniform, prelude::Distribution, rngs::ThreadRng, threa
 
 use laser::{Laser, Levels, PhotonType, N_ATOMS_PAD, N_ATOMS_X, N_ATOMS_Y};
 
-
 const MIRROR_WIDTH: f32 = 10.;
 const VIEW_ASPECT: f32 = 6.;
 
