@@ -4,7 +4,7 @@ use std::collections::VecDeque;
 use std::f32::consts::PI;
 
 use egui::plot::{Line, Plot, PlotPoints};
-use egui::{Align2, Color32, FontId, Pos2, Rect, RichText, Stroke};
+use egui::{Align2, Color32, FontId, Pos2, Rect, RichText, Stroke, Visuals};
 
 use glam::Vec2;
 use rand::Rng;
@@ -456,6 +456,7 @@ impl App {
 impl eframe::App for App {
     fn update(&mut self, ctx: &egui::Context, _frame: &mut eframe::Frame) {
         ctx.request_repaint();
+        ctx.set_visuals(Visuals::dark());
         let dt = self.dt;
         egui::CentralPanel::default().show(&ctx, |ui| {
             ui.visuals_mut().override_text_color = Some(Color32::WHITE.linear_multiply(0.5));
