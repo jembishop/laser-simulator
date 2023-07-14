@@ -7,4 +7,10 @@ as it is a purely particle based simulation.
 It simulates the two three and four level configurations, with some explanatory text and animations.
 [Play with it here!](https://jembishop.github.io/laser-simulator/)
 
-![](demo.mp4)
+
+
+https://github.com/jembishop/laser-simulator/assets/40360024/8dcb8936-8af7-4e5f-b78d-ced258b590ae
+
+
+
+
